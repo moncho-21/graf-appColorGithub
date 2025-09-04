@@ -1,0 +1,60 @@
+/* Fondo con gradiente suave */
+.bg-gradient {
+  background: linear-gradient(135deg, #89f7fe 0%, #66a6ff 100%);
+}
+
+/* Card con efecto glass */
+.color-card {
+  backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, 0.9);
+}
+
+/* Recuadro de color */
+.color-box {
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+  border: 3px solid #fff;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  transition: background-color 0.3s ease;
+}
+
+/* Texto con gradiente */
+.text-gradient {
+  background: linear-gradient(90deg, #ff6a00, #ee0979);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Estilo sliders personalizados */
+input[type=range] {
+  height: 8px;
+  border-radius: 5px;
+  outline: none;
+  background: #ddd;
+}
+
+input[type=range]::-webkit-slider-thumb {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #333;
+  cursor: pointer;
+  border: 2px solid #fff;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+input[type=range]::-moz-range-thumb {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #333;
+  cursor: pointer;
+  border: 2px solid #fff;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+/* Acentos de color en sliders */
+.accent-red::-webkit-slider-runnable-track { background: linear-gradient(to right, red, #ddd); }
+.accent-green::-webkit-slider-runnable-track { background: linear-gradient(to right, green, #ddd); }
+.accent-blue::-webkit-slider-runnable-track { background: linear-gradient(to right, blue, #ddd); }
